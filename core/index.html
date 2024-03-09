@@ -14,7 +14,7 @@
     <!-- Navbar Starts here -->
     <!-- Activities, Gallery, Pricing, Phone Number -->
 
-    <nav class="bg-bgPrimary2 border-gray-200">
+    <nav class="bg-bgPrimary2 border-gray-200 fixed top-0 w-full shadow-md z-10">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="#" class="flex items-center space-x-3 rtl:space-x-reverse">
                 <img src="/static/Dusai-logo-mini.png" class="h-8" alt="Flowbite Logo" />
@@ -60,10 +60,7 @@
 
     <!-- Hero Section Starts here -->
 
-    <section class=" container mx-auto relative h-[95vh] flex flex-col justify-center items-center">
-
-                            <video src="/dynamic/Dusai Trailer Horizontal.mp4" autoplay muted loop
-                                class="absolute top-0 left-0 h-[900px] object-cover -z-10"></video>
+    <section class=" container mx-auto relative h-screen flex flex-col justify-center items-center">
 
                             <div class="text-textPrimary">
                                 <h1 class="text-center text-5xl font-bold">Welcome to Dusai Resort</h1>
@@ -78,18 +75,127 @@
                                 More</button>
 
                             </section>
+                            <video src="/dynamic/Dusai Trailer Horizontal.mp4" autoplay muted loop
+                                class="absolute top-16 left-0 h-screen object-cover -z-10"></video>
                             <!-- Hero Section Ends here -->
 
                             <!-- Amenities Starts here -->
-                            <section>
+                            <section class="bg-bgPrimary">
+                                <div class="container mx-auto mt-32">
+                                    <div>
+                                        <h2 class="text-3xl text-center font-bold tracking-tight text-gold sm:text-4xl">
+                                            Amenities
+                                        </h2>
+                                        <p class="mt-2 text-lg text-center leading-8 text-textPrimary">At Dusai, we
+                                            pride ourselves on offering an array of world-class amenities to
+                                            enhance your stay and provide unparalleled comfort and relaxation.</p>
+                                    </div>
 
+                                    <div>
+                                        <div>
+                                            <h3 class="text-gold">Swimming Pool Complex</h3>
+                                            <p class="text-textPrimary">Dive into luxury at our expansive swimming pool
+                                                complex, featuring multiple pools for adults and children. <br>
+                                                Relax on poolside loungers and cabanas while enjoying refreshing
+                                                beverages from our poolside bar.</p>
+                                        </div>
+
+                                        <div>
+                                            <img src="/static/pool.jpg" alt="">
+                                        </div>
+                                    </div>
+
+                                </div>
                             </section>
                             <!-- Amenities Ends here -->
+
+                            <!-- Pricing Starts here -->
+                            <section class="bg-bgPrimary2 py-20 mt-10 relative z-50">
+                                <div class="container mx-auto">
+                                    <div class="mx-auto max-w-xl sm:text-center">
+                                        <h2 class="text-3xl text-center font-bold tracking-tight text-gold sm:text-4xl">
+                                            Pricing</h2>
+                                        <p class="mt-2 text-lg text-center leading-8 text-textPrimary">For detailed
+                                            pricing
+                                            information, please contact our team or visit us for the latest
+                                            rates and availability</p>
+                                    </div>
+
+                                    <section
+                                        class="flex flex-col overflow-hidden rounded-xl p-6 mt-10 shadow-lg bg-bgPrimary max-w-[400px] mx-auto">
+                                        <h3 class="text-sm font-semibold text-gold uppercase">Premium Plan</h3>
+                                        <p class="relative mt-5 text-3xl font-semibold text-textPrimary">
+                                            ৳ 3,800,000 </p>
+                                        <p class="mt-5 text-sm text-textPrimary">Experience the pinnacle
+                                            of luxury. Unparalleled elegance, breathtaking views, and personalized
+                                            service await you. Indulge in opulent comfort and lavish amenities for an
+                                            unforgettable stay.</p>
+                                        <hr class="mt-6 border-0 h-px bg-gold">
+                                        <div class="mt-6">
+                                            <ul role="list" class="-my-2 text-sm text-gray-700">
+                                                <li class="flex py-2">
+                                                    <!-- svg icon -->
+                                                    <svg class="w-5 h-5 fill-gold" viewBox="0 0 24 24" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <circle class="stroke-gold" cx="12" cy="12" r="10"
+                                                            stroke-width="1.5" />
+                                                        <path class="stroke-white" d="M8.5 12.5L10.5 14.5L15.5 9.5"
+                                                            stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                    <span class="ml-4 text-textPrimary">3 Days per Month</span>
+                                                </li>
+                                                <li class="flex py-2">
+                                                    <!-- svg icon -->
+                                                    <svg class="w-5 h-5 fill-gold" viewBox="0 0 24 24" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <circle class="stroke-gold" cx="12" cy="12" r="10"
+                                                            stroke-width="1.5" />
+                                                        <path class="stroke-white" d="M8.5 12.5L10.5 14.5L15.5 9.5"
+                                                            stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                    <span class="ml-4 text-textPrimary">Profit Sharing</span>
+                                                </li>
+                                                <li class="flex py-2">
+                                                    <!-- svg icon -->
+                                                    <svg class="w-5 h-5 fill-gold" viewBox="0 0 24 24" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <circle class="stroke-gold" cx="12" cy="12" r="10"
+                                                            stroke-width="1.5" />
+                                                        <path class="stroke-white" d="M8.5 12.5L10.5 14.5L15.5 9.5"
+                                                            stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                    <span class="ml-4 text-textPrimary">High Priority</span>
+                                                </li>
+                                                <li class="flex py-2">
+                                                    <!-- svg icon -->
+                                                    <svg class="w-5 h-5 fill-gold" viewBox="0 0 24 24" fill="none"
+                                                        xmlns="http://www.w3.org/2000/svg">
+                                                        <circle class="stroke-gold" cx="12" cy="12" r="10"
+                                                            stroke-width="1.5" />
+                                                        <path class="stroke-white" d="M8.5 12.5L10.5 14.5L15.5 9.5"
+                                                            stroke-width="1.5" stroke-linecap="round"
+                                                            stroke-linejoin="round" />
+                                                    </svg>
+                                                    <span class="ml-4 text-textPrimary">Other Benefits</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <a class="inline-flex justify-center rounded-lg border py-2 px-3 text-sm font-semibold text-slate-400 hover:text-white hover:bg-gold mt-6 transition-all duration-500"
+                                            aria-label="Get started with the Starter plan for [object Object]"
+                                            href="#">Join Today</a>
+                                    </section>
+
+                                </div>
+                            </section>
+                            <!-- Pricing Ends here -->
 
 
                             <!-- Contact Us Starts here -->
                             <section>
-                                <div class="bg-bgPrimary2 px-6 py-24 sm:py-32 lg:px-8">
+                                <div class="bg-bgPrimary px-6 py-24 sm:py-32 lg:px-8">
                                     <div class="mx-auto max-w-2xl text-center">
                                         <h2 class="text-3xl font-bold tracking-tight text-gold sm:text-4xl">
                                             Contact Us</h2>
@@ -97,7 +203,7 @@
                                             with any questions, inquiries, or booking requests.</p>
                                     </div>
                                     <form action="#" method="POST"
-                                        class="bg-bgPrimary mx-auto max-w-2xl mt-10 px-16 py-10 sm:px-20 sm:py-10 rounded-xl">
+                                        class="bg-bgPrimary2 mx-auto max-w-2xl mt-10 px-16 py-10 sm:px-20 sm:py-10 rounded-xl">
                                         <div class="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
                                             <div>
                                                 <label for="first-name"
@@ -149,7 +255,7 @@
                                         </div>
                                         <div class="mt-10">
                                             <button type="submit"
-                                                class="block w-full text-white bg-green-700 hover:bg-green-800 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 mt-4">Let's
+                                                class="block w-full text-white bg-gold hover:bg-yellow-800 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 mt-4">Let's
                                                 talk</button>
                                         </div>
                                     </form>
@@ -160,7 +266,6 @@
 
                             <!-- Footer Starts here -->
                             <!-- About Us, Location & Directions,  -->
-
                             <footer class="bg-bgPrimary2 bg-[url('/static/footer-lg.jpg')] bg-blend-overlay">
                                 <div class="mx-auto w-full max-w-screen-xl">
 
@@ -261,7 +366,6 @@
                                     </div>
                                 </div>
                             </footer>
-
                             <!-- Footer Ends here -->
 </body>
 
