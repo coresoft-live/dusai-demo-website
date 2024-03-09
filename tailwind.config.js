@@ -9,7 +9,7 @@ module.exports = {
       colors: {
         bgPrimary: "#022c22",
         textPrimary: "#ffffff",
-        footerPrimary: '#011e14',
+        bgPrimary2: '#011e14',
         gold: "#a78864",
       },
     },
