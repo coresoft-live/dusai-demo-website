@@ -5,7 +5,11 @@ module.exports = {
     extend: {
       fontFamily: {
         primary: ["Montserrat", "sans-serif"],
-      }
+      },
+      colors: {
+        bgPrimary: "#022c22",
+        textPrimary: "#ffffff",
+      },
     },
   },
   plugins: [],
