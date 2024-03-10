@@ -1069,11 +1069,11 @@ video {
 }
 
 .bg-\[url\(\'\/static\/footer-lg\.jpg\'\)\] {
-  background-image: url('/static/footer-lg.jpg');
+  background-image: url('static/footer-lg.jpg');
 }
 
 .bg-\[url\(\/static\/svg\/background\.svg\)\] {
-  background-image: url(/static/svg/background.svg);
+  background-image: url(static/svg/background.svg);
 }
 
 .bg-cover {
